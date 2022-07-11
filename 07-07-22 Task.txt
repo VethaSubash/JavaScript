@@ -1,0 +1,87 @@
+Largest 2 Numbers:
+var a=40;
+var b=50;
+if(a<b)
+{
+    console.log('b is the largest number');
+}
+else if(b<a)
+{
+    console.log('a is the largest number');
+}
+
+
+Largest 3 Numbers:
+var A=40;
+var B=60;
+var C=50;
+if(A>B)
+{
+    if(A>C)
+    {
+        console.log('A is the largest number');
+    }
+    else
+    {
+        console.log('C is the largest number');
+    }
+}
+else
+{
+    if(B>C)
+    {
+        console.log('B is the largest number');
+    }
+    else
+    {
+        console.log('C is the largest number');
+    }
+}
+
+
+Switch Case using+,-,*,/:
+var n='*';
+num1 = 10;
+num2 = 20;
+switch(n)
+{
+ case '+': {
+     console.log('Addition of two numbers is:'+(num1+num2));
+     break;
+ }   
+ case '-': {
+     console.log('Subtraction of two numbers is:'+(num1-num2));
+     break;
+ }
+ case '*': {
+     console.log('Multiplication of two numbers is:'+(num1*num2));
+     break;
+ }
+ case '/': {
+     console.log('Division of two numbers is:'+(num1/num2));
+     break;
+ }
+}
+
+
+Function Using add,sub,mul,div:
+function add(a,b)
+{
+    console.log(a+b);
+}
+add(10,15)
+function sub(a,b)
+{
+    console.log(a-b);
+}
+sub(20,15)
+function mul(a,b)
+{
+    console.log(a*b);
+}
+mul(5,7)
+function div(a,b)
+{
+    console.log(a/b);
+}
+div(10,5)
