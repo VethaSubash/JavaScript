@@ -13,30 +13,21 @@ else if(b<a)
 
 Largest 3 Numbers:
 var A=40;
-var B=60;
-var C=50;
+var B=45;
+var C=55;
 if(A>B)
 {
-    if(A>C)
-    {
-        console.log('A is the largest number');
-    }
-    else
-    {
-        console.log('C is the largest number');
-    }
+    console.log('A is the largest number');
 }
-else
+else if(B>C)
 {
-    if(B>C)
-    {
-        console.log('B is the largest number');
-    }
-    else
-    {
-        console.log('C is the largest number');
-    }
+    console.log('B is the largest number');
 }
+else if(C>A)
+{
+	console.log('C is the largest number');
+}
+
 
 
 Switch Case using+,-,*,/:
